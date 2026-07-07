@@ -1,0 +1,2 @@
+# Dependencies for Echo AI
+# Add your packages here
