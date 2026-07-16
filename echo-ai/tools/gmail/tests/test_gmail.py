@@ -1,59 +1,106 @@
-import unittest
 import os
-import shutil
-from tools.gmail.gmail_service import GmailService
-from tools.gmail.gmail_utils import extract_email, format_subject, clean_html, save_attachment
+import tempfile
+import pytest
+from fastapi.testclient import TestClient
+from backend.main import app
+from tools.gmail.router import get_gmail_service
+from tools.gmail.service import GmailService
+from tools.gmail.utils import extract_email, format_subject, save_attachment
 
-class TestGmailService(unittest.TestCase):
-    def setUp(self):
-        self.temp_dir = os.path.abspath("uploads/test_gmail_temp")
-        os.makedirs(self.temp_dir, exist_ok=True)
-        self.service = GmailService()
-
-    def tearDown(self):
-        if os.path.exists(self.temp_dir):
-            shutil.rmtree(self.temp_dir)
-
-    def test_utils(self):
-        self.assertEqual(extract_email("John Doe <john@example.com>"), "john@example.com")
-        self.assertEqual(extract_email("simple@example.com"), "simple@example.com")
+@pytest.fixture
+def client():
+    with tempfile.TemporaryDirectory() as tmpdir:
+        test_service = GmailService(base_dir=tmpdir)
+        app.dependency_overrides[get_gmail_service] = lambda: test_service
         
-        self.assertEqual(format_subject("Hello"), "Re: Hello")
-        self.assertEqual(format_subject("Re: Hello"), "Re: Hello")
-        self.assertEqual(format_subject("re: Hello"), "re: Hello")
+        yield TestClient(app), tmpdir
         
-        self.assertEqual(clean_html("<p>Hello <b>World</b></p>"), "Hello World")
-        
-        # Test save attachment (base64url for "hello")
-        path = save_attachment("aGVsbG8=", "test.txt", self.temp_dir)
-        self.assertTrue(os.path.exists(path))
-        with open(path, "r") as f:
-            self.assertEqual(f.read(), "hello")
+        app.dependency_overrides.clear()
 
-    def test_service_mock_read(self):
-        # Service defaults to mock client in test mode
-        emails = self.service.read_emails(limit=2)
-        self.assertEqual(len(emails), 2)
-        self.assertEqual(emails[0].id, "msg123")
-        self.assertTrue(emails[0].is_unread)
+def test_utils(client):
+    _, tmpdir = client
+    assert extract_email("John Doe <john@example.com>") == "john@example.com"
+    assert extract_email("simple@example.com") == "simple@example.com"
+    
+    assert format_subject("Hello") == "Re: Hello"
+    assert format_subject("Re: Hello") == "Re: Hello"
+    
+    # Save attachment using base64 for "hello" (aGVsbG8=)
+    path = save_attachment("aGVsbG8=", "test.txt", tmpdir)
+    full_path = os.path.join(tmpdir, path)
+    assert os.path.exists(full_path)
+    with open(full_path, "r", encoding="utf-8") as f:
+        assert f.read() == "hello"
 
-    def test_service_mock_get(self):
-        email_msg = self.service.get_email("msg123")
-        self.assertEqual(email_msg.id, "msg123")
-        self.assertEqual(email_msg.subject, "Mock Subject msg123")
+def test_unread_endpoint(client):
+    c, _ = client
+    response = c.get("/gmail/unread?limit=2")
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data) == 2
+    assert data[0]["id"] == "msg123"
+    assert data[0]["is_unread"] is True
 
-    def test_service_mock_send_reply(self):
-        from tools.gmail.gmail_models import EmailRequest, ReplyRequest
-        
-        send_res = self.service.send_email(EmailRequest(
-            recipient="test@example.com",
-            subject="Test",
-            body="Test body"
-        ))
-        self.assertEqual(send_res["message_id"], "msg_sent_999")
-        
-        reply_res = self.service.reply_email("msg123", ReplyRequest(body="Reply text"))
-        self.assertEqual(reply_res["message_id"], "msg_sent_999")
+def test_search_endpoint(client):
+    c, _ = client
+    response = c.get("/gmail/search?q=important&limit=1")
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data) == 1
+    assert data[0]["id"] == "msg123"
 
-if __name__ == "__main__":
-    unittest.main()
+def test_message_details_endpoint(client):
+    c, _ = client
+    response = c.get("/gmail/message/msg123")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["id"] == "msg123"
+    assert "Mock Subject msg123" in data["subject"]
+    assert "Hello! This is a mock email body." in data["body_text"]
+
+def test_send_endpoint(client):
+    c, _ = client
+    response = c.post("/gmail/send", json={
+        "recipient": "recipient@example.com",
+        "subject": "Hello Test",
+        "body": "This is a test email body."
+    })
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "success"
+    assert data["message_id"] == "msg_sent_999"
+
+def test_reply_endpoint(client):
+    c, _ = client
+    response = c.post("/gmail/reply?message_id=msg123", json={
+        "body": "This is a reply email body."
+    })
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "success"
+    assert data["message_id"] == "msg_sent_999"
+
+def test_archive_endpoint(client):
+    c, _ = client
+    response = c.post("/gmail/archive?message_id=msg123")
+    assert response.status_code == 200
+    assert response.json()["status"] == "success"
+
+def test_delete_endpoint(client):
+    c, _ = client
+    response = c.delete("/gmail/message/msg123")
+    assert response.status_code == 204
+
+def test_download_attachment_endpoint(client):
+    c, tmpdir = client
+    response = c.post("/gmail/attachments?message_id=msg123&attachment_id=att456&filename=mock_doc.txt")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "success"
+    
+    # Verify file saved in tmpdir/echo-ai/uploads/attachments/mock_doc.txt
+    full_path = os.path.join(tmpdir, data["file_path"])
+    assert os.path.exists(full_path)
+    with open(full_path, "r", encoding="utf-8") as f:
+        # data "dGVzdF9hdHRhY2htZW50X2NvbnRlbnQ=" is base64 for "test_attachment_content"
+        assert f.read() == "test_attachment_content"

@@ -1,71 +1,113 @@
 import os
-import shutil
-import unittest
-from tools.notes.notes_models import NoteCreate, NoteUpdate
-from tools.notes.notes_service import NotesService
+import tempfile
+import pytest
+import gc
+from fastapi.testclient import TestClient
+from backend.main import app
+from tools.notes.router import get_notes_service
+from tools.notes.service import NotesService
+from tools.notes.schemas import NoteCreate, NoteUpdate
 
-class TestNotesService(unittest.TestCase):
-    def setUp(self):
-        self.test_dir = os.path.abspath("uploads/test_notes_temp")
-        self.service = NotesService(storage_dir=self.test_dir)
+@pytest.fixture
+def temp_db():
+    fd, db_path = tempfile.mkstemp()
+    os.close(fd)
+    
+    test_service = NotesService(db_path=db_path)
+    yield test_service
+    
+    # Run garbage collector to ensure connection handles are released
+    gc.collect()
+    
+    if os.path.exists(db_path):
+        try:
+            os.remove(db_path)
+        except PermissionError:
+            # Under Windows, open sqlite files are locked until process ends
+            pass
 
-    def tearDown(self):
-        if os.path.exists(self.test_dir):
-            shutil.rmtree(self.test_dir)
+@pytest.fixture
+def client(temp_db):
+    app.dependency_overrides[get_notes_service] = lambda: temp_db
+    with TestClient(app) as c:
+        yield c
+    app.dependency_overrides.clear()
 
-    def test_create_and_get_note(self):
-        note_in = NoteCreate(title="Test Title", content="Test Content", tags=["test", "unit"])
-        note = self.service.create_note(note_in)
-        
-        self.assertIsNotNone(note.id)
-        self.assertEqual(note.title, "Test Title")
-        self.assertEqual(note.content, "Test Content")
-        self.assertEqual(note.tags, ["test", "unit"])
-        self.assertIsNotNone(note.created_at)
-        
-        fetched = self.service.get_note(note.id)
-        self.assertIsNotNone(fetched)
-        self.assertEqual(fetched.id, note.id)
-        self.assertEqual(fetched.title, "Test Title")
+def test_create_note(client):
+    response = client.post("/notes/create", json={
+        "title": "Shopping List",
+        "content": "Buy apples and milk",
+        "tags": ["groceries", "personal"]
+    })
+    assert response.status_code == 201
+    data = response.json()
+    assert data["id"] is not None
+    assert data["title"] == "Shopping List"
+    assert data["content"] == "Buy apples and milk"
+    assert data["tags"] == ["groceries", "personal"]
 
-    def test_update_note(self):
-        note_in = NoteCreate(title="Old Title", content="Old Content", tags=[])
-        note = self.service.create_note(note_in)
-        
-        note_up = NoteUpdate(title="New Title", content="New Content", tags=["updated"])
-        updated = self.service.update_note(note.id, note_up)
-        
-        self.assertIsNotNone(updated)
-        self.assertEqual(updated.title, "New Title")
-        self.assertEqual(updated.content, "New Content")
-        self.assertEqual(updated.tags, ["updated"])
-        
-        # Verify in get
-        fetched = self.service.get_note(note.id)
-        self.assertEqual(fetched.title, "New Title")
+def test_read_note_all(client):
+    client.post("/notes/create", json={"title": "Note 1", "content": "Content 1", "tags": []})
+    client.post("/notes/create", json={"title": "Note 2", "content": "Content 2", "tags": []})
+    
+    response = client.get("/notes/read")
+    assert response.status_code == 200
+    data = response.json()
+    assert isinstance(data, list)
+    assert len(data) == 2
 
-    def test_delete_note(self):
-        note_in = NoteCreate(title="To Delete", content="Content", tags=[])
-        note = self.service.create_note(note_in)
-        
-        self.assertTrue(self.service.delete_note(note.id))
-        self.assertIsNone(self.service.get_note(note.id))
-        self.assertFalse(self.service.delete_note(note.id))
+def test_read_note_by_id(client):
+    create_res = client.post("/notes/create", json={"title": "Get Me", "content": "Find this", "tags": ["tag1"]})
+    note_id = create_res.json()["id"]
+    
+    response = client.get(f"/notes/read?id={note_id}")
+    assert response.status_code == 200
+    data = response.json()
+    assert data["id"] == note_id
+    assert data["title"] == "Get Me"
 
-    def test_list_and_search_notes(self):
-        note1 = self.service.create_note(NoteCreate(title="Apples", content="Buy apples", tags=["shopping"]))
-        note2 = self.service.create_note(NoteCreate(title="Bananas", content="Eat bananas", tags=["fruit"]))
-        
-        all_notes = self.service.list_notes()
-        self.assertEqual(len(all_notes), 2)
-        
-        search_res = self.service.search_notes("apples")
-        self.assertEqual(len(search_res), 1)
-        self.assertEqual(search_res[0].title, "Apples")
-        
-        search_tag = self.service.search_notes("fruit")
-        self.assertEqual(len(search_tag), 1)
-        self.assertEqual(search_tag[0].title, "Bananas")
+def test_read_note_not_found(client):
+    response = client.get("/notes/read?id=999")
+    assert response.status_code == 404
+    assert "not found" in response.json()["detail"].lower()
 
-if __name__ == "__main__":
-    unittest.main()
+def test_update_note(client):
+    create_res = client.post("/notes/create", json={"title": "Old Title", "content": "Old Content", "tags": []})
+    note_id = create_res.json()["id"]
+    
+    response = client.put(f"/notes/update?id={note_id}", json={
+        "title": "New Title",
+        "content": "New Content",
+        "tags": ["updated"]
+    })
+    assert response.status_code == 200
+    data = response.json()
+    assert data["title"] == "New Title"
+    assert data["content"] == "New Content"
+    assert data["tags"] == ["updated"]
+
+def test_delete_note(client):
+    create_res = client.post("/notes/create", json={"title": "To Delete", "content": "Delete me", "tags": []})
+    note_id = create_res.json()["id"]
+    
+    response = client.delete(f"/notes/delete?id={note_id}")
+    assert response.status_code == 200
+    assert response.json()["status"] == "success"
+    
+    response = client.get(f"/notes/read?id={note_id}")
+    assert response.status_code == 404
+
+def test_search_notes(client):
+    client.post("/notes/create", json={"title": "Apples", "content": "Red apples", "tags": ["fruit"]})
+    client.post("/notes/create", json={"title": "Bananas", "content": "Yellow fruit", "tags": []})
+    
+    response = client.get("/notes/search?q=Apples")
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data) == 1
+    assert data[0]["title"] == "Apples"
+    
+    response = client.get("/notes/search?q=fruit")
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data) == 2

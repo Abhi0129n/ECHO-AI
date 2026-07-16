@@ -1,0 +1,835 @@
+{"timestamp": "2026-07-16T05:13:48.297147+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 19.4, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.322530+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.339386+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.364292+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 4.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.364292+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.387128+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 3.06, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.389752+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.410023+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 3.55, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.415128+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.07, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.433112+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 4.69, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.437489+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.455527+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.463315+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 7.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:13:48.481199+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.49, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T05:14:43.519069+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 38.45, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:43.941150+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 75.65, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:43.972545+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.66, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:43.980744+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 6.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:14:44.036750+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 22.95, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:44.040762+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 2.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:14:44.085724+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 8.07, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:14:44.144164+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 22.12, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:44.168548+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 20.93, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:14:44.237371+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 25.94, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:44.252801+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 12.65, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:14:44.262127+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 6.04, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:14:44.328188+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 23.93, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:44.350752+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.93, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:14:44.358281+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 4.89, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:14:44.364679+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.4, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:04.953970+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 34.09, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.048366+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.0, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.065777+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 14.9, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.070861+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.07, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:05.169125+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.22, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.174541+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:05.254607+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.02, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:15:05.356101+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.22, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.375384+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 16.2, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:05.479378+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 20.47, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.494388+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 13.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:05.500707+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 4.26, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:15:05.601567+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 20.45, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.618745+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.12, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:15:05.623756+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 2.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:05.628753+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 2.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:59.174793+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 81.87, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:59.236615+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 29.69, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:59.279333+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 22.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:15:59.303862+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 3.4, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:16:56.206775+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 34.26, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:16:56.220933+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 5.13, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:16:56.246335+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 17.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.316690+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 140.14, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.329298+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 2.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.413133+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 73.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.426191+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 2.81, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.887038+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 451.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.933819+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 34.77, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.947911+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 2.94, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:17:59.964053+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 4.37, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:15.611176+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 183.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:15.626302+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 2.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:15.706724+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 70.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:15.722814+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 3.49, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:16.304601+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 571.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:16.319763+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 5.81, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:16.335570+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 3.38, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:18:16.349427+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 3.43, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:19:13.216136+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 142.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:19:13.326707+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 99.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:19:13.396730+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 53.58, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:19:13.426519+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 17.87, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:19:13.437364+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 2.36, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:20:22.448085+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 148.93, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:22.464816+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 2.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:22.884172+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 3.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:22.898898+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 5.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:22.911847+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 3.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:22.923420+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 2.34, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:22.936164+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 3.55, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T05:20:22.951647+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 6.45, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:40.424455+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 164.25, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:40.436158+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 2.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:40.447360+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 3.19, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:40.460539+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 4.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:40.473495+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 4.23, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:40.484771+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 2.85, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:20:40.496478+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.3, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T05:20:40.510718+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 5.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:21:47.155087+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 46.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:21:47.167455+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 2.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:21:47.182491+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 3.97, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:21:47.196671+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 4.21, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:21:47.210134+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 3.96, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:21:47.222917+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 4.09, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T05:21:47.234801+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 3.4, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:04.821385+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 47.78, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:04.834980+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 2.75, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:04.848668+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 3.95, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:04.860635+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 3.77, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:04.872540+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 3.35, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:04.883699+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 2.22, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T05:22:04.896616+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 4.13, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.044982+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 51.36, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.064019+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 5.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.078865+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 4.28, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.118976+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 3.45, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.130561+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 2.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.143460+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 3.49, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:19.176502+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 4.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.192500+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 3.91, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.208350+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 3.95, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T05:22:19.222884+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 4.38, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.291247+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 30.22, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.308148+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 1.61, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.331044+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 4.5, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.352027+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 4.41, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.356010+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 1.27, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.378082+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 4.84, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.383017+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.19, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.405037+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 5.21, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.409276+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 1.71, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.431325+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 5.4, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.437986+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.97, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.457742+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 4.3, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.462754+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 1.63, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.479250+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.7, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T05:22:19.623431+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 121.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.635502+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 2.24, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.648308+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.664318+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 4.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.678188+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 3.97, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.693036+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 5.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.705475+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.76, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T05:22:19.719477+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 5.16, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:19.789170+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 20.74, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:19.963709+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 27.4, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:19.982897+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.39, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:19.993276+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.114540+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.5, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:20.119373+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.22, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.228388+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 6.66, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:22:20.342691+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.68, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:20.359271+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 14.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.478429+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.97, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:20.493853+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 13.78, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.498916+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.39, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:22:20.625304+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 19.05, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:20.643076+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 14.62, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T05:22:20.649747+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 2.78, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.654762+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 1.71, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.787283+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 30.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.827830+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 21.65, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.869646+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 22.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:20.892475+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 1.71, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:22:20.943423+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 38.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.001178+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 49.5, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.046502+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 36.27, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.062760+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 5.97, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.075796+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 3.17, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:22:21.197483+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 105.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.209247+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 2.72, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.292307+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 73.64, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.304262+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 1.82, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.762350+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 447.24, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.781021+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 5.55, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.796958+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 3.34, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:22:21.811360+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 4.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:35:37.376690+00:00", "user_action": "GET /", "tool_name": "", "execution_time_ms": 99.84, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:35:37.508848+00:00", "user_action": "GET /favicon.ico", "tool_name": "favicon.ico", "execution_time_ms": 3.77, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T05:36:16.537249+00:00", "user_action": "GET /docs", "tool_name": "docs", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:36:17.200090+00:00", "user_action": "GET /openapi.json", "tool_name": "openapi.json", "execution_time_ms": 204.07, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T05:38:51.072783+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 2.44, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T05:38:56.203974+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 1.92, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T05:39:26.413590+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 2.27, "success": false, "status_code": 422, "error_detail": "HTTP status 422"}
+{"timestamp": "2026-07-16T05:42:40.730932+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 2.31, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:07.722960+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 40.62, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:07.761541+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 7.52, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:08.184576+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 19.24, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:08.321545+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 107.28, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:08.353987+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.75, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:08.388112+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 2.85, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:08.417637+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 2.55, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:08.458691+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.84, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:08.492517+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.92, "success": false, "status_code": 500, "error_detail": "HTTP status 500"}
+{"timestamp": "2026-07-16T06:25:39.003011+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 26.09, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:39.037096+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:39.087040+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 18.71, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:39.219907+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 106.29, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:39.266888+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 4.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:39.303177+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 6.28, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:39.333052+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 4.96, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:39.360598+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 0.0, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:39.391169+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 4.99, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T06:25:50.954548+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 24.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:50.984083+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 4.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.029948+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 20.51, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.161382+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 105.64, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.195402+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 6.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.229455+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 7.69, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:51.263031+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.22, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:51.292670+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.61, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:25:51.323194+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.64, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T06:25:51.398467+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 55.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.414804+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 4.08, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.434779+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 6.96, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.456840+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 4.07, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.470489+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 3.54, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.485476+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 5.84, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:51.499334+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 3.58, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.511637+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 4.34, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.523453+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 2.21, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T06:25:51.536419+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 2.88, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.556674+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.574397+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.81, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.593811+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 4.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.611849+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 3.91, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.615752+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 1.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.634881+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 3.51, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.639465+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 1.58, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.658519+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 3.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.662530+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.683424+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 5.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.688434+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.705522+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 3.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.709503+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.725709+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.03, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T06:25:51.883010+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 121.84, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.894073+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 2.8, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.907062+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.921365+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 3.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.934351+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 3.29, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.945623+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 2.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:51.958022+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.75, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T06:25:51.981492+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 12.97, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:52.032913+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 21.67, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.162351+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.66, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.181353+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.98, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.186861+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:52.310957+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.11, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.315827+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 2.23, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:52.454654+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 7.01, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T06:25:52.589893+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.03, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.606895+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 15.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:52.746810+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.1, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.762345+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 13.54, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:52.767828+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.16, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T06:25:52.902780+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.17, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.921249+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.48, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T06:25:52.926309+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:52.931740+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.071549+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 34.58, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.114791+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 21.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.153958+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 21.06, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.172433+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 3.0, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T06:25:53.207329+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 22.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.270755+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 53.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.311508+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 31.32, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.329905+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 5.85, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.342132+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 2.89, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T06:25:53.459254+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 103.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.473367+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 3.37, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.542592+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 60.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.558866+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 2.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:53.999874+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 433.3, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:54.012744+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 4.64, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:54.022629+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 2.22, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:25:54.032181+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 2.84, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:30:24.114058+00:00", "user_action": "GET /docs", "tool_name": "docs", "execution_time_ms": 1.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:30:24.650081+00:00", "user_action": "GET /openapi.json", "tool_name": "openapi.json", "execution_time_ms": 232.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:31:06.651235+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 76.29, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T06:31:54.516239+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 5.02, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T06:32:41.153279+00:00", "user_action": "GET /docs", "tool_name": "docs", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:32:41.252118+00:00", "user_action": "GET /openapi.json", "tool_name": "openapi.json", "execution_time_ms": 2.55, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:32:57.545231+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 4.02, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T06:38:46.367772+00:00", "user_action": "GET /docs", "tool_name": "docs", "execution_time_ms": 1.06, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:38:46.734440+00:00", "user_action": "GET /openapi.json", "tool_name": "openapi.json", "execution_time_ms": 249.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:39:04.843691+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 30.83, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T06:46:48.122039+00:00", "user_action": "GET /docs", "tool_name": "docs", "execution_time_ms": 1.65, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:46:48.514330+00:00", "user_action": "GET /openapi.json", "tool_name": "openapi.json", "execution_time_ms": 292.14, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:47:12.449921+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1486.93, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:47:57.043397+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1023.06, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:51:37.869508+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 2.0, "success": false, "status_code": 422, "error_detail": "HTTP status 422"}
+{"timestamp": "2026-07-16T06:51:54.000638+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 4.6, "success": false, "status_code": 422, "error_detail": "HTTP status 422"}
+{"timestamp": "2026-07-16T06:53:02.312176+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1260.87, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:53:24.433956+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1308.52, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:53:47.961711+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1217.52, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:54:16.042396+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 917.65, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T06:54:33.429975+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1228.81, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T06:54:55.244826+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1108.85, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:55:16.565536+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1548.16, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:55:50.331313+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1286.9, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T06:56:39.857874+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 906.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:57:03.846823+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1116.44, "success": false, "status_code": 500, "error_detail": "HTTP status 500"}
+{"timestamp": "2026-07-16T06:57:28.232519+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1097.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T06:58:32.030921+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 1412.72, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:06:11.024100+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 516.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:11.460248+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 387.54, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:11.858177+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 357.15, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:12.338848+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 456.21, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:12.729208+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 352.63, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:13.129414+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 359.03, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:06:13.523971+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 354.81, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:06:13.894967+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 333.25, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:06:14.312790+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 375.37, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T07:06:14.742901+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 400.75, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:15.104980+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 359.09, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:15.435824+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 328.85, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:15.798970+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 359.75, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:16.127682+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 326.54, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:06:16.449862+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 321.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:16.790157+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 337.29, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:17.023755+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 231.42, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:17.302097+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 276.34, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:17.553266+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 249.8, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:30.087260+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 513.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:30.483834+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 355.81, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:30.887085+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 375.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:31.356062+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 441.62, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:31.749113+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 349.31, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:32.140689+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 347.7, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:06:32.523326+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 333.69, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:06:32.913294+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 340.24, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:06:33.315209+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 355.47, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T07:06:33.748747+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 405.82, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.122511+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 371.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.546082+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 57.33, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.562702+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 5.31, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.579853+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 5.23, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.598883+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 3.43, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.610135+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 2.82, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.622822+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 4.55, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:34.636307+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 3.94, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.649036+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 4.14, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.661620+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 2.73, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:06:34.683256+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 3.36, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.705531+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 4.13, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.721115+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.38, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.739978+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 4.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.757827+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 3.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.762832+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.782623+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 5.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.787632+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.804516+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 3.23, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.809798+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.828327+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 4.62, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.833292+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.850196+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 3.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.854282+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.89, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:34.869449+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.01, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:06:35.002107+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 111.97, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.012489+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 2.75, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.023979+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.78, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.037271+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 5.69, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.048526+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 3.35, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.059907+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 2.18, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.071848+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.9, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:06:35.084274+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 4.42, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.126269+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.92, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.240140+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.48, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.255336+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 13.18, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.260335+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.384266+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.28, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.388774+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 2.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.501647+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.0, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:06:35.634401+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.25, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.653431+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 17.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.760326+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.75, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.772325+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 9.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.777876+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.54, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:06:35.894900+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.07, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.909709+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 12.62, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:06:35.913711+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:35.916709+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 1.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.038492+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 24.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.072752+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 17.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.106076+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 18.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.121380+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 1.6, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:06:36.147791+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 17.25, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.195821+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 39.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.230508+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 27.19, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.243306+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 3.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.252847+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 2.75, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:06:36.366722+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 103.91, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.376315+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 1.63, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.438622+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 55.08, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.449263+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 2.24, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.868190+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 410.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.882892+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 5.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.896056+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 2.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:06:36.911697+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 7.27, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:30.742041+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 604.87, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:31.287002+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 511.85, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:31.921424+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 589.64, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:33.167524+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 574.73, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:33.728645+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 518.66, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:34.233037+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 454.91, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:07:34.783595+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 505.13, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:07:35.333296+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 516.98, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:07:35.962241+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 595.17, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T07:07:36.472486+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 469.32, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:36.952437+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 476.93, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:37.393773+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 438.33, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:37.888665+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 491.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:38.354694+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 462.97, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:07:38.830870+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 473.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:39.291187+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 457.28, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:39.797907+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 504.37, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:40.274225+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 474.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:40.837206+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 559.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.123438+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 84.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.156735+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 15.94, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.186615+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 10.19, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.217455+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 4.62, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.238300+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 4.63, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.255013+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 5.28, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:41.272743+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 5.33, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.291620+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 5.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.308112+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 4.47, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:07:41.326146+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 4.45, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.357574+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 6.96, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.383639+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.414590+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 8.82, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.443711+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 6.07, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.449808+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.45, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.479464+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 5.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.486264+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.517751+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 5.71, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.524852+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 4.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.556303+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 7.16, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.563814+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.51, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.591626+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 6.18, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.598539+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.622764+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.66, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:07:41.859742+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 201.5, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.876942+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 4.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.893541+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 4.07, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.910890+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 6.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.928948+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 4.55, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.946996+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 3.57, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:41.966401+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 4.02, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:07:41.994339+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 12.28, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:42.091052+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 25.99, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:42.340104+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 23.2, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:42.368772+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 23.67, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:42.377719+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 4.95, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:42.592074+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 26.1, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:42.600076+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:42.758938+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 8.21, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:07:42.946420+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 25.7, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:42.975617+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 25.58, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.153590+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 22.99, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:43.171624+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 15.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.179631+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.01, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:07:43.349047+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 21.01, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:43.373423+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 20.37, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:07:43.381992+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 5.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.388990+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 4.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.585222+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 48.88, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.650460+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 41.16, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.703960+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 29.37, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.730725+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 2.98, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:07:43.792490+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 45.95, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.881058+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 76.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.938804+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 44.34, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.964371+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 10.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:43.983333+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 3.75, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:07:44.107316+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 106.35, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:44.122141+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 3.57, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:44.225802+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 90.32, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:44.244598+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 4.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:45.073196+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 813.77, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:45.098741+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 9.21, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:45.117912+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 4.37, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:07:45.136816+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 4.39, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:06.967113+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 875.95, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:07.677095+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 551.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:08.636858+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 823.22, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:09.623077+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 826.13, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:10.430663+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 651.81, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:11.262333+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 697.54, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:08:11.913049+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 485.79, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:08:12.766014+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 707.94, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:08:13.493088+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 545.79, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T07:08:14.222515+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 573.84, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:14.734615+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 507.64, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:15.271074+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 534.92, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:15.896111+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 625.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:16.509446+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 609.32, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:08:17.258701+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 746.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:17.982084+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 719.38, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:18.868254+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 883.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:19.541693+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 669.43, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.124725+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 579.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.342714+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 89.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.371887+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 10.09, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.399357+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 8.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.430058+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 5.5, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.448761+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 5.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.467919+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 5.56, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:20.487448+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 5.71, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.508162+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 6.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.525878+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 4.78, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:08:20.543464+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 5.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.573072+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 5.69, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.597658+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 4.14, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.628066+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 6.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.657155+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 5.24, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.663154+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.689542+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 5.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.695994+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.726426+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 6.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.732423+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.765774+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 9.05, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.773047+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 4.26, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.802641+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 6.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.809098+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.45, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:20.832773+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.0, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:08:21.073740+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 206.91, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.100658+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 4.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.119132+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 5.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.139634+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 7.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.158590+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 6.18, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.176637+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 4.72, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.194721+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 4.44, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:08:21.216554+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 7.77, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.300163+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 26.53, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:21.467223+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 24.03, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:21.491142+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 20.14, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:21.499388+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 4.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.677103+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 23.71, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:21.685330+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:21.843455+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 9.1, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:08:22.029451+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 22.51, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:22.055469+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 21.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:22.249562+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 25.73, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:22.265564+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 13.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:22.275883+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 6.32, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:08:22.454999+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 26.17, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:22.481576+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 22.6, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:08:22.490616+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 5.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:22.499163+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 5.27, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:22.714601+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 51.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:22.773511+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 30.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:22.833884+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 33.16, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:22.862151+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 5.0, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:08:22.932492+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 54.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:23.039505+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 92.19, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:23.123554+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 67.6, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:23.148318+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 9.36, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:23.168775+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 3.98, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:08:23.300121+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 107.62, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:23.319405+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 4.65, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:23.436663+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 101.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:23.458217+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 4.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:24.337892+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 863.28, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:24.364942+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 11.94, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:24.386481+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 4.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:08:24.410479+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 5.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:16:14.672218+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 492.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:16:15.284522+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 457.91, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:16:15.760514+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 472.94, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:16:16.182522+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 419.6, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:16:16.628115+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 442.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:10.026607+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 516.73, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:10.624823+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 484.75, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:11.122750+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 491.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:11.600793+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 476.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:12.221326+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 617.22, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:39.734666+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 537.92, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:40.372768+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 510.23, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:40.852849+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 477.08, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:41.307901+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 451.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:41.801894+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 491.27, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:55.218787+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 501.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:55.819783+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 483.52, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:56.311916+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 489.42, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:56.776080+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 460.87, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:57.281344+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 503.73, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:22:57.886678+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 465.66, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:22:59.010425+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 544.12, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:22:59.664978+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 491.07, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:00.280733+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 479.84, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:00.854619+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 436.96, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:01.466370+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 475.55, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:02.022292+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 406.64, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:02.583040+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 417.74, "success": false, "status_code": 500, "error_detail": "HTTP status 500"}
+{"timestamp": "2026-07-16T07:23:03.134938+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 409.95, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T07:23:03.686424+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 432.35, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:03.877116+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 65.48, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:03.910751+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 6.59, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:03.930150+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 6.3, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:03.951640+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 3.89, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:03.966830+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 3.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:03.981126+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 3.98, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:03.997198+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 4.1, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.013439+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 4.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.027103+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 3.34, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:23:04.040802+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 4.07, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.064371+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 5.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.085087+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.28, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.107652+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 5.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.133398+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 4.61, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.138411+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.160717+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 4.96, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.165745+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.188238+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 4.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.192945+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.43, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.214592+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 6.06, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.219590+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.243252+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 4.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.247264+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.269277+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.86, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:23:04.442594+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 141.24, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.455831+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 3.4, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.470970+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 3.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.485672+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 4.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.505659+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 6.29, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.521579+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 4.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.536067+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 2.8, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:23:04.553005+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 5.09, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.623524+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 21.53, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:04.753695+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.17, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:04.772815+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.8, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:04.779671+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:04.933260+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.32, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:04.939394+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 2.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.059965+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.92, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:05.214903+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 19.64, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:05.234337+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 16.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.368688+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.21, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:05.384802+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 12.78, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.390814+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 4.01, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:05.530419+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 21.29, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:05.549380+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.65, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:05.556107+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.56, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.560438+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 1.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.733995+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 55.09, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.780510+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 24.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.845651+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 40.69, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.869721+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 3.78, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:05.916884+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 34.29, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:05.984378+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 55.51, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.038201+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 43.08, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.069077+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 17.97, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.084278+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 3.34, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:06.206818+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 105.13, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.222470+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 4.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.335196+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 100.65, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.349045+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 2.8, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.872315+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 513.38, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.894297+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 9.87, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.912922+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 4.23, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:06.931572+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 5.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:33.509704+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 542.11, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:34.086759+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 456.94, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:34.564792+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 475.8, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:35.004939+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 436.77, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:35.621831+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 614.08, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:36.207813+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 451.78, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:37.194793+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 465.81, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:37.770968+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 451.92, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:38.391312+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 502.72, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:39.027796+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 427.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:39.669603+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 451.13, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:40.303606+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 425.35, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:40.879790+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 420.55, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:23:41.516771+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 432.74, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T07:23:42.101332+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 400.56, "success": false, "status_code": 500, "error_detail": "HTTP status 500"}
+{"timestamp": "2026-07-16T07:23:42.397139+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 70.29, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.419218+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 7.35, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.445997+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 9.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.472846+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 5.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.490610+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 7.58, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.509263+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 6.34, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:42.527131+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 5.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.544565+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 3.8, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.559255+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 3.04, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:23:42.575360+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 3.62, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.600718+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.57, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.625813+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 4.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.645677+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 3.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.667995+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 5.06, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.672107+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.695443+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 6.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.699907+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 4.46, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.723823+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 4.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.734995+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.32, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.760719+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 7.47, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.765894+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.77, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.784419+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 4.12, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.790906+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.69, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.810309+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.13, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:23:42.984736+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 144.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:42.997469+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 3.43, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.011263+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 3.92, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.028940+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 6.1, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.045150+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 4.45, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.073618+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 16.36, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.089580+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 3.89, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:23:43.107867+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 6.83, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.164100+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 22.59, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:43.300462+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.55, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:43.324023+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.27, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:43.324023+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 0.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.484095+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 19.4, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:43.489583+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.22, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.612952+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 6.7, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:43.759459+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.89, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:43.777061+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 14.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.926747+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 21.2, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:43.941342+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 12.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:43.948759+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 4.24, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:44.093657+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 19.72, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:44.113422+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.69, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:23:44.118959+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.54, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.124869+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.15, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.287320+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 44.49, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.339896+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 27.9, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.388389+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 29.24, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.416421+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 3.2, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:44.458885+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 28.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.526415+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 56.27, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.578620+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 42.17, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.597097+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 6.14, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.611637+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 3.3, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:23:44.735323+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 105.82, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.749241+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 2.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.838907+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 77.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:44.854227+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 3.34, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:45.354551+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 488.37, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:45.373857+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 7.36, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:45.389591+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 4.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:23:45.408895+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 5.42, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:28.533364+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 528.84, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:29.232345+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 583.56, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:29.927269+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 692.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:30.369161+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 438.64, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:30.818089+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 444.93, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:31.368191+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 421.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:31.946949+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 460.65, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:32.527825+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 447.51, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:33.217872+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 550.55, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:33.812977+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 460.57, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:34.389373+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 441.07, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:24:34.964972+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 449.34, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:24:35.541374+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 454.4, "success": false, "status_code": 400, "error_detail": "HTTP status 400"}
+{"timestamp": "2026-07-16T07:24:36.079958+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 427.6, "success": false, "status_code": 502, "error_detail": "HTTP status 502"}
+{"timestamp": "2026-07-16T07:24:36.656527+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 453.58, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:37.106354+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 446.82, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:37.554214+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 445.18, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:38.021757+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 463.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:38.537205+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 515.45, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:24:39.013500+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 470.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:39.448924+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 427.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:39.899467+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 447.55, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:40.400794+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 498.33, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:40.876260+00:00", "user_action": "POST /chat", "tool_name": "chat", "execution_time_ms": 473.35, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.070232+00:00", "user_action": "POST /browser/search", "tool_name": "browser", "execution_time_ms": 79.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.088743+00:00", "user_action": "POST /browser/read", "tool_name": "browser", "execution_time_ms": 5.66, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.109914+00:00", "user_action": "POST /browser/download-pdf", "tool_name": "browser", "execution_time_ms": 6.78, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.137224+00:00", "user_action": "GET /calendar/today", "tool_name": "calendar", "execution_time_ms": 4.59, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.153570+00:00", "user_action": "GET /calendar/search", "tool_name": "calendar", "execution_time_ms": 4.01, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.171900+00:00", "user_action": "POST /calendar/create", "tool_name": "calendar", "execution_time_ms": 6.22, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:41.186589+00:00", "user_action": "PUT /calendar/update", "tool_name": "calendar", "execution_time_ms": 3.87, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.200914+00:00", "user_action": "POST /calendar/move", "tool_name": "calendar", "execution_time_ms": 3.92, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.214333+00:00", "user_action": "DELETE /calendar/delete", "tool_name": "calendar", "execution_time_ms": 3.42, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:24:41.227520+00:00", "user_action": "GET /calendar/free-slots", "tool_name": "calendar", "execution_time_ms": 3.48, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.253235+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 4.31, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.273625+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.297933+00:00", "user_action": "POST /file/find", "tool_name": "file", "execution_time_ms": 4.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.321955+00:00", "user_action": "POST /file/create-folder", "tool_name": "file", "execution_time_ms": 5.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.326953+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.350056+00:00", "user_action": "POST /file/rename", "tool_name": "file", "execution_time_ms": 4.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.356578+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.02, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.376958+00:00", "user_action": "POST /file/move", "tool_name": "file", "execution_time_ms": 3.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.381978+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.403810+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 6.04, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.409786+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.431574+00:00", "user_action": "POST /file/delete", "tool_name": "file", "execution_time_ms": 3.98, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.437571+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 2.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.457993+00:00", "user_action": "GET /file/list", "tool_name": "file", "execution_time_ms": 3.05, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:24:41.627183+00:00", "user_action": "GET /gmail/unread", "tool_name": "gmail", "execution_time_ms": 143.44, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.643909+00:00", "user_action": "GET /gmail/search", "tool_name": "gmail", "execution_time_ms": 4.6, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.660716+00:00", "user_action": "GET /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 4.84, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.680439+00:00", "user_action": "POST /gmail/send", "tool_name": "gmail", "execution_time_ms": 6.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.696498+00:00", "user_action": "POST /gmail/reply", "tool_name": "gmail", "execution_time_ms": 5.1, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.710848+00:00", "user_action": "POST /gmail/archive", "tool_name": "gmail", "execution_time_ms": 3.94, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.725383+00:00", "user_action": "DELETE /gmail/message/msg123", "tool_name": "gmail", "execution_time_ms": 4.32, "success": true, "status_code": 204}
+{"timestamp": "2026-07-16T07:24:41.747685+00:00", "user_action": "POST /gmail/attachments", "tool_name": "gmail", "execution_time_ms": 7.62, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:41.801413+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.15, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:41.928485+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.69, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:41.947204+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 16.13, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:41.954730+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 4.52, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.088612+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 17.63, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:42.094596+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 3.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.240192+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.99, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:24:42.377831+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 21.5, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:42.398537+00:00", "user_action": "PUT /notes/update", "tool_name": "notes", "execution_time_ms": 17.73, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.537748+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 19.99, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:42.554729+00:00", "user_action": "DELETE /notes/delete", "tool_name": "notes", "execution_time_ms": 13.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.562546+00:00", "user_action": "GET /notes/read", "tool_name": "notes", "execution_time_ms": 5.43, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:24:42.701544+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 18.67, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:42.719618+00:00", "user_action": "POST /notes/create", "tool_name": "notes", "execution_time_ms": 15.07, "success": true, "status_code": 201}
+{"timestamp": "2026-07-16T07:24:42.726105+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.48, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.732140+00:00", "user_action": "GET /notes/search", "tool_name": "notes", "execution_time_ms": 3.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.904598+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 54.54, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.949827+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 25.82, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:42.999692+00:00", "user_action": "POST /pdf/search", "tool_name": "pdf", "execution_time_ms": 26.59, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.022998+00:00", "user_action": "POST /pdf/read", "tool_name": "pdf", "execution_time_ms": 3.0, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:24:43.073237+00:00", "user_action": "POST /productivity/excel", "tool_name": "productivity", "execution_time_ms": 36.67, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.139896+00:00", "user_action": "POST /productivity/word", "tool_name": "productivity", "execution_time_ms": 54.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.189200+00:00", "user_action": "POST /productivity/powerpoint", "tool_name": "productivity", "execution_time_ms": 39.0, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.206067+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 5.77, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.221428+00:00", "user_action": "POST /productivity/csv/read", "tool_name": "productivity", "execution_time_ms": 3.54, "success": false, "status_code": 404, "error_detail": "HTTP status 404"}
+{"timestamp": "2026-07-16T07:24:43.342831+00:00", "user_action": "GET /system/cpu", "tool_name": "system", "execution_time_ms": 105.11, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.357485+00:00", "user_action": "GET /system/memory", "tool_name": "system", "execution_time_ms": 3.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.443607+00:00", "user_action": "GET /system/disk", "tool_name": "system", "execution_time_ms": 75.59, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:43.458451+00:00", "user_action": "GET /system/battery", "tool_name": "system", "execution_time_ms": 3.81, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:44.050099+00:00", "user_action": "GET /system/processes", "tool_name": "system", "execution_time_ms": 579.74, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:44.070687+00:00", "user_action": "GET /system/apps", "tool_name": "system", "execution_time_ms": 8.53, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:44.089642+00:00", "user_action": "POST /system/open", "tool_name": "system", "execution_time_ms": 4.14, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:24:44.106982+00:00", "user_action": "POST /system/close", "tool_name": "system", "execution_time_ms": 4.4, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:50:12.642467+00:00", "user_action": "POST /knowledge/index", "tool_name": "knowledge", "execution_time_ms": 7900.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:50:20.659041+00:00", "user_action": "GET /knowledge/list", "tool_name": "knowledge", "execution_time_ms": 8012.13, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:50:28.811923+00:00", "user_action": "POST /knowledge/search", "tool_name": "knowledge", "execution_time_ms": 8149.86, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:50:37.373583+00:00", "user_action": "POST /knowledge/summarize", "tool_name": "knowledge", "execution_time_ms": 8558.65, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:50:37.888785+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 12.84, "success": false, "status_code": 403, "error_detail": "HTTP status 403"}
+{"timestamp": "2026-07-16T07:52:55.613720+00:00", "user_action": "POST /knowledge/index", "tool_name": "knowledge", "execution_time_ms": 8438.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:53:03.605576+00:00", "user_action": "GET /knowledge/list", "tool_name": "knowledge", "execution_time_ms": 7988.68, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:53:12.130598+00:00", "user_action": "POST /knowledge/search", "tool_name": "knowledge", "execution_time_ms": 8521.79, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:53:20.455820+00:00", "user_action": "POST /knowledge/summarize", "tool_name": "knowledge", "execution_time_ms": 8322.03, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:53:20.932054+00:00", "user_action": "POST /file/copy", "tool_name": "file", "execution_time_ms": 6.99, "success": true, "status_code": 200}
+{"timestamp": "2026-07-16T07:53:28.513794+00:00", "user_action": "GET /knowledge/list", "tool_name": "knowledge", "execution_time_ms": 7578.2, "success": true, "status_code": 200}

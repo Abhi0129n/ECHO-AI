@@ -1,48 +1,113 @@
-import unittest
-from tools.browser.browser_service import BrowserService, SimpleHTMLParser
-from tools.browser.browser_utils import is_valid_url
+import os
+import tempfile
+import pytest
+from fastapi.testclient import TestClient
+from unittest.mock import patch, MagicMock
+from backend.main import app
+from tools.browser.router import get_browser_service
+from tools.browser.service import BrowserService
+from tools.browser.utils import is_valid_url
 
-class TestBrowserService(unittest.TestCase):
-    def setUp(self):
-        self.service = BrowserService()
+MOCK_HTML_CONTENT = """
+<html>
+    <head><title>Test Mock Title</title></head>
+    <body>
+        <h1>Welcome to Mock Land</h1>
+        <p>This is some visible text about apples and bananas.</p>
+        <a href="https://example.com/document.pdf">Download PDF here</a>
+        <a href="/other-page">Regular link</a>
+        <style>body { color: red; }</style>
+        <script>alert("hello");</script>
+    </body>
+</html>
+"""
 
-    def test_utils(self):
-        self.assertTrue(is_valid_url("http://google.com"))
-        self.assertTrue(is_valid_url("https://localhost:8000/docs"))
-        self.assertFalse(is_valid_url("ftp://google.com"))
-        self.assertFalse(is_valid_url("google.com"))
-
-    def test_html_parser(self):
-        html = """
-        <html>
-            <head><title>Test Title</title></head>
-            <body>
-                <a href="https://example.com/one">Link One</a>
-                <a href="/two">Link Two</a>
-                <img src="/image.png" />
-                <p>Hello World text</p>
-                <script>console.log("script block");</script>
-            </body>
-        </html>
-        """
-        parser = SimpleHTMLParser()
-        parser.feed(html)
+@pytest.fixture
+def client():
+    with tempfile.TemporaryDirectory() as tmpdir:
+        test_service = BrowserService(base_dir=tmpdir)
+        app.dependency_overrides[get_browser_service] = lambda: test_service
         
-        self.assertEqual(parser.title, "Test Title")
-        self.assertEqual(len(parser.links), 2)
-        self.assertEqual(parser.links[0]["url"], "https://example.com/one")
-        self.assertEqual(parser.links[0]["text"], "Link One")
-        self.assertEqual(len(parser.images), 1)
-        self.assertEqual(parser.images[0], "/image.png")
-        self.assertIn("Hello World text", parser.text_parts)
-        self.assertNotIn('console.log("script block")', parser.text_parts)
+        with TestClient(app) as c:
+            yield c, tmpdir
+            
+        app.dependency_overrides.clear()
 
-    def test_search_and_read(self):
-        results = self.service.google_search("python")
-        self.assertTrue(len(results) > 0)
-        
-        content = self.service.read_page("https://example.com")
-        self.assertEqual(content.url, "https://example.com")
+def test_is_valid_url():
+    assert is_valid_url("http://google.com") is True
+    assert is_valid_url("https://localhost:8000/docs") is True
+    assert is_valid_url("ftp://google.com") is False
+    assert is_valid_url("google.com") is False
 
-if __name__ == "__main__":
-    unittest.main()
+@patch("requests.get")
+def test_google_search(mock_get, client):
+    c, _ = client
+    
+    # Mock DuckDuckGo HTML search response
+    mock_resp = MagicMock()
+    mock_resp.status_code = 200
+    mock_resp.text = """
+    <div class="result">
+        <a class="result__url" href="https://example.com/python-info">Python Info Page</a>
+        <a class="result__snippet" href="#">Python is a great programming language.</a>
+    </div>
+    """
+    mock_get.return_value = mock_resp
+    
+    response = c.post("/browser/search", json={
+        "query": "python",
+        "max_results": 1
+    })
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data) == 1
+    assert data[0]["title"] == "Python Info Page"
+    assert data[0]["url"] == "https://example.com/python-info"
+    assert "great programming language" in data[0]["snippet"]
+
+@patch("requests.get")
+def test_read_page(mock_get, client):
+    c, _ = client
+    
+    mock_resp = MagicMock()
+    mock_resp.status_code = 200
+    mock_resp.text = MOCK_HTML_CONTENT
+    mock_get.return_value = mock_resp
+    
+    response = c.post("/browser/read", json={
+        "url": "https://example.com"
+    })
+    assert response.status_code == 200
+    data = response.json()
+    assert data["title"] == "Test Mock Title"
+    assert "Welcome to Mock Land" in data["visible_text"]
+    assert "apples and bananas" in data["visible_text"]
+    assert "alert" not in data["visible_text"]
+    
+    # Verify PDF links extracted
+    assert len(data["pdf_links"]) == 1
+    assert data["pdf_links"][0]["url"] == "https://example.com/document.pdf"
+    assert data["pdf_links"][0]["text"] == "Download PDF here"
+
+@patch("requests.get")
+def test_download_pdf(mock_get, client):
+    c, tmpdir = client
+    
+    mock_resp = MagicMock()
+    mock_resp.status_code = 200
+    mock_resp.iter_content = lambda chunk_size: [b"MOCK PDF DATA"]
+    mock_get.return_value = mock_resp
+    
+    response = c.post("/browser/download-pdf", json={
+        "url": "https://example.com/document.pdf",
+        "output_filename": "test.pdf"
+    })
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "success"
+    
+    # Verify file saved in tmpdir/echo-ai/uploads/test.pdf
+    expected_path = os.path.join(tmpdir, data["file_path"])
+    assert os.path.exists(expected_path)
+    with open(expected_path, "rb") as f:
+        assert f.read() == b"MOCK PDF DATA"
